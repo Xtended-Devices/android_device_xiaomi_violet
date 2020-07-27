@@ -5,8 +5,8 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_violet.mk
+    $(LOCAL_DIR)/rr_violet.mk
 
 COMMON_LUNCH_CHOICES := \
-    lineage_violet-userdebug \
-    lineage_violet-eng
+    rr_violet-userdebug \
+    rr_violet-eng
