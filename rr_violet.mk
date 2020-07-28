@@ -10,6 +10,10 @@ $(call inherit-product, device/xiaomi/violet/device.mk)
 # Inherit some common Resurrection stuff.
 $(call inherit-product, vendor/rr/config/common_full_phone.mk)
 
+# Bootanimation Resolution
+TARGET_BOOT_ANIMATION_RES := 1080
+TARGET_GAPPS_ARCH := arm64
+
 # Device identifier. This must come after all inclusions.
 PRODUCT_NAME := rr_violet
 PRODUCT_DEVICE := violet
