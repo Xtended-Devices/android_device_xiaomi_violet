@@ -1,6 +1,25 @@
 [
-  {
-    "repository": "android_device_xiaomi_sm6150-common",
-    "target_path": "device/xiaomi/sm6150-common"
+ { 
+   "remote": "github", 
+   "repository":"Xtended-Devices/kernel_xiaomi_sm6150", 
+   "target_path":"kernel/xiaomi/sm6150", 
+   "branch": "xq"
+  },
+ {  "remote": "github", 
+    "repository":"Xtended-Devices/android_device_xiaomi_sm6150-common", 
+    "target_path": "device/xiaomi/sm6150-common", 
+    "branch": "xq"
+  },
+  { 
+    "remote": "github", 
+    "repository":"Xtended-Devices/proprietary_vendor_xiaomi-violet", 
+    "target_path":"vendor/xiaomi", 
+    "branch": "xq"
+  },
+ { 
+    "remote": "github", 
+    "repository":"Xtended-Devices/android_hardware_xiaomi", 
+    "target_path":"hardware/xiaomi", 
+    "branch": "xq"
   }
 ]
