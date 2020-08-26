@@ -5,8 +5,8 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/rr_violet.mk
+    $(LOCAL_DIR)/xtended_violet.mk
 
 COMMON_LUNCH_CHOICES := \
-    rr_violet-userdebug \
-    rr_violet-eng
+    xtended_violet-userdebug \
+    xtended_violet-eng
