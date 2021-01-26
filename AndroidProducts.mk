@@ -6,8 +6,8 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/aosp_violet.mk
+    $(LOCAL_DIR)/havoc_violet.mk
 
 COMMON_LUNCH_CHOICES := \
-    aosp_violet-userdebug \
-    aosp_violet-user
+    havoc_violet-userdebug \
+    havoc_violet-user
