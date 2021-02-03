@@ -68,3 +68,7 @@
 
 # FPS Info
 /sys/class/drm/sde-crtc-0/measured_fps                              u:object_r:sysfs_fps:s0
+
+# KCAL
+/sys/devices/platform/kcal_ctrl.0(/.*)?                      u:object_r:kcal_dev:s0
+/sys/bus/platform/drivers/kcal_ctrl(/.*)?                    u:object_r:kcal_dev:s0
