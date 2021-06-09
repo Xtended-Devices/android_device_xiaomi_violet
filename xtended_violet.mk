@@ -29,5 +29,6 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 
 # Xtended Official
+XTENDED_BUILD_TYPE := OFFICIAL
 XTENDED_BUILD_MAINTAINER :=  m@vji7
 XTENDED_BUILD_DONATE_URL :=  https://www.paypal.me/vishwasmehta
