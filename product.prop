@@ -60,6 +60,7 @@ persist.sys.fuse.passthrough.enable=true
 debug.renderengine.backend=skiaglthreaded
 debug.cpurend.vsync=false
 debug.hwui.renderer=skiagl
+debug.renderengine.backend=skiaglthreaded
 debug.sf.disable_client_composition_cache=1
 debug.sf.enable_gl_backpressure=1
 persist.demo.hdmirotationlock=false
