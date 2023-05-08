@@ -422,6 +422,9 @@ PRODUCT_BOOT_JARS += \
 # Touchscreen
 PRODUCT_PACKAGES += \
     libtinyxml2
+    
+# Blur
+TARGET_ENABLE_BLUR := true
 
 # USB
 PRODUCT_PACKAGES += \
